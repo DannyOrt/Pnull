@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/DannyOrt/OrtegaSolano_Pilares/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DannyOrt/OrtegaSolano_Pilares/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+		<meta charset='utf-8'>
+		<meta name='viewport', content='width=device-width, maximum-scale=1.0 user-scalable=no'>
+		<link rel='stylesheet' type="text/css" href='diseño/css/style.css' />
+		<link rel='stylesheet' type="text/css" href='diseño/css/style_resp_425.css' />
+		<link rel='stylesheet' type="text/css" href='diseño/css/style_resp_768.css' />
+		<link rel='stylesheet' type="text/css" href='diseño/css/style_resp_1024.css' />
+		<link rel='stylesheet' type="text/css" href='diseño/css/style_resp_1440.css' />
+		<link rel="stylesheet" type="text/css" href="diseño/css/stylei.css">
+		<link rel="shortcut icon" type="image/png" href="icons/dados.png" />
+</head>
+<body>
+	<section class="toolbar bg_primary shadow_flat">
+			<button class="menu_button" id="menu_button" onclick="showMenu( true );">
+				<img src="icons/menu.png" class="icon v_align_middle" />
+			</button>
+			<div class="toolbar_in">
+				<div class="logo_container font_white v_align_top">
+				<img src="icons/dados.png" class="icon v_align_middle"/>
+				<div class="name mr_top_24">
+						<a href="" class="font_white">
+							<h3 class="title_bigger">
+							</h3>
+						</a>
+					</div>
+				</div>
+					</span>
+				</div>
+			</div>
+		</section>
+		<div class="contenedor">
+    
+  		</div>
+  		<div class="contenedor">
+    
+  		</div>
+		<article class="menu shadow_flat bg_white" id="menu">
+			<div class="close text_align_right">
+				<button class="text_align_center hover_black" onclick="showMenu( false );">
+					<img src="icons/close_black.png" class="icon opacity v_align_middle" />
+				</button>
+			</div>
+			<section class="profile_container">
+				<div class="pd_24 text_align_center">
+					<div class="img_container circle margin_auto">
+						<img src="icons/ficharoja.png" />
+					</div>
+					<div class="name mr_top_24">
+						<a href="" class="font_gray">
+							<h3 class="title_smaller">
+								Bienvenido.
+							</h3>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="list">
+				<nav class="menu_options">
+					<a href="login.html">
+						<li class="pd_16 hover_black">
+							<img src="icons/account_black.png" class="icon opacity">
+							<strong>
+								Iniciar Sesión
+							</strong>
+						</li>
+					</a>
+					<a href="registro.html">
+						<li class="pd_16 hover_black">
+							<img src="icons/account_black.png" class="icon opacity">
+							<strong>
+								Registrarse
+							</strong>
+						</li>
+					</a>
+				</nav>
+			</section>
+		</article>
+</body>
+</html>
